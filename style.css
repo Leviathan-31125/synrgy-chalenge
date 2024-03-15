@@ -1,0 +1,158 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100vw;
+}
+
+h1, h3, h5 {
+    font-weight: 700;
+}
+
+h5 {
+    margin: 0;
+}
+
+#home {
+    background-color: #F1F3FF;
+    height: 100vh;
+    position: relative;
+}
+
+.home-page {
+    position: absolute;
+    bottom: 0;
+}
+
+nav {
+    padding-inline: 7rem;
+}
+
+#our-service, #testimonial, #cta-banner, #faq, #footer{
+    margin-top: 6rem;
+}
+
+#our-service .content-service {
+    gap: 70px
+}
+
+#why-us {
+    margin-top: 6rem;
+    padding-inline: 7rem;
+}
+
+#why-us .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#why-us .card-body div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.bullet {
+    background-color: #CFD4ED;
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-block: 3px;
+}
+
+.brand-custome {
+    background-color: #0D28A6;
+    width: 100px;
+    height: 34px;
+}
+
+.my-button {
+    background-color: #5CB85F;
+    color: white;
+    border: none;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.owl-carousel .item {
+    background-color: #F1F3FF;
+
+    padding-block: 2rem;
+    padding-inline: 2rem;
+    border-radius: 10px;
+}
+
+.star span {
+    color: yellow;
+}
+
+.button-nav {
+    color: black;
+    background-color: white;
+    border: rgb(138, 137, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-nav:hover {
+    background-color: #5CB85F;
+    color: white;
+    border: none;
+}
+
+.cta-banner-layout {
+    background-color: #0D28A6;
+    color: white;
+    border-radius: 2rem;
+}
+
+.cta-banner-layout p {
+    padding-inline: 25%;
+    margin-block: 2rem;
+}
+
+#faq h2 {
+    font-weight: 700;
+}
+
+#footer {
+    margin-bottom: 3rem;
+}
+
+#footer .action-menu {
+    font-weight: 600;
+}
+
+#footer .action-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer .social-media {
+    position: relative;
+    width: 32px;
+    height: 32px;
+
+    background-color: #0D28A6;
+    color: white;
+
+    border-radius: 50%;
+}
+
+#footer .social-media:hover {
+    background-color: #4c64ce;
+    
+    width: 33px;
+    height: 33px;
+}
+
+#footer i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+}
