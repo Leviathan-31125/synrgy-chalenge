@@ -33,24 +33,51 @@
                 <div><a href="#faq">FAQ</a></div>
                 <button class="btn btn-success my-button">Register</button>
               </div>
+
+              <div class="sidebar-menu">
+                <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="bi bi-list"></i>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">BCR</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <div class="sidebar-item d-flex flex-column gap-4">
+                            <div><a href="#our-service">Our Service</a></div>
+                            <div><a href="#why-us">Why Us</a></div>
+                            <div><a href="#testimonial">Testimonial</a></div>
+                            <div><a href="#faq">FAQ</a></div>
+                            <button class="btn btn-success my-button">Register</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
             </div>
         </nav>
-        <div class="d-flex justify-content-between align-items-center home-page" style="margin-left: 7rem;">
-            <div class="jumbotron jumbotron-fluid pb-5" style="width: 40%;">
+
+        <div class="jumbotron-custom d-flex gap-5 justify-content-between align-items-center">
+            <div class="jumbotron jumbotron-fluid w-50">
                 <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
                 <p class="lead">
                     Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. 
                     Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
                 </p>
+                <button class="btn btn-success">Mulai Sewa Mobil</button>
             </div>
-            <img src="assets/img_car.png" class="img-fluid" alt="Binar Car" width="50%">
+            <div class="align-self-end">
+                <img src="assets/img_car.png" class="img-fluid" alt="Binar Car">
+            </div>
         </div>
     </section>
 
     <section id="our-service">
         <div class="w-100 d-flex justify-content-center align-items-center content-service" data-aos="fade-up">
             <img src="assets/img_service.png" alt="Binar Car Serivice" class="img-fluid" width="400">
-            <div style="width: 30%;">
+            <div class="service-content">
                 <h3>Best Car Rental for any kind of trip in (Lokasimu)!</h3>
                 <p>
                     Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, 
@@ -95,7 +122,7 @@
     <section id="why-us">
         <h3 data-aos="fade-up-right">Why Us?</h3>  
         <p>Mengapa harus pilih Binar Car Rental?</p>
-        <div class="d-flex justify-content-between gap-3">
+        <div class="special-service d-flex justify-content-between gap-3">
             <div class="card" data-aos="flip-right" data-aos-duration="2000">
                 <div class="card-body d-flex flex-column gap-3">
                     <div class="position-relative" style="background-color: #F9CC00;">
@@ -144,10 +171,10 @@
             <div class="owl-carousel loop" data-aos="fade-down" data-aos-duration="2000">
                 <div class="item">
                     <div class="row">
-                      <div class="col-md-2 text-center my-auto">
+                      <div class="col-md-2 col-sm-12 text-center my-auto">
                         <img src="assets/Testimoni/img_photo.png" class="testimonial-image testimonial-image rounded-circle" alt="GambarPhoto1">
                       </div>
-                      <div class="col-md d-flex flex-column align-center justify-content-center">
+                      <div class="col-md d-flex flex-column">
                         <div class="star">
                           <span class="star">&#9733;</span>
                           <span class="star">&#9733;</span>
@@ -224,7 +251,7 @@
     </section>
 
     <section id="faq" class="container">
-        <div class="row">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
             <div class="col" data-aos="fade-right" data-aos-duration="1500">
                 <h2>Frequently Asked Question</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -293,12 +320,11 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
     <section id="footer" class="container">
-        <div class="row">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
             <div class="col">
                 <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
                 <p>binarcarrental@gmail.com</p>

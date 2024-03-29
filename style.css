@@ -18,7 +18,25 @@ h5 {
 #home {
     background-color: #F1F3FF;
     height: 100vh;
-    position: relative;
+    width: 100vw;
+}
+
+.jumbotron-custom {
+    margin-left: 7rem; 
+    height: 93vh;
+}
+
+.jumbotron-custom button {
+    background-color: #5CB85F;
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+    padding-inline: 12px;
+    padding-block: 8px;
+
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .home-page {
@@ -28,6 +46,11 @@ h5 {
 
 nav {
     padding-inline: 7rem;
+    height: 7vh;
+}
+
+.service-content {
+    width: 30%;
 }
 
 #our-service, #testimonial, #cta-banner, #faq, #footer{
@@ -69,14 +92,18 @@ nav {
 }
 
 .my-button {
-    background-color: #5CB85F;
-    color: white;
-    border: none;
+    background-color: #5CB85F !important;
+    color: white !important;
+    border: none !important;
 }
 
 .menu-item a {
     text-decoration: none;
     color: black;
+}
+
+.sidebar-menu {
+    display: none !important;
 }
 
 .owl-carousel .item {
@@ -155,4 +182,138 @@ nav {
     top: 50%;
     left: 50%;
     transform:  translate(-50%, -50%);
+}
+
+.offcanvas {
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        padding-inline: 1rem !important;
+    }
+
+    p {
+        text-align: start !important;
+    }
+
+    .menu-item{
+        display: none !important;
+    }
+
+    .sidebar-menu {
+        display: block !important;
+    }
+
+    .sidebar-item a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .sidebar-menu button {
+        border: none;
+        background-color: #F1F3FF;
+        color: #222222;
+    }
+
+    .sidebar-menu button > i {
+        font-size: 24px;
+    }
+
+    .jumbotron-custom {
+        margin-left: 0 !important;
+        margin-top: 4rem;
+
+        display: flex;
+        gap: 0 !important;
+        flex-direction: column;
+        justify-content: space-between !important;
+    }
+
+    .jumbotron-custom > .jumbotron {
+        width: 100% !important;
+        padding-inline: 1rem !important;
+    }
+
+    .lead {
+        text-align: start;
+    }
+
+    #our-service {
+        margin-top: 7rem !important;
+    }
+
+    .content-service {
+        padding-inline: 1rem;
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    .content-service img {
+        width: fit-content;
+        padding: 10px !important;
+    }
+
+    .service-content {
+        width: 100% !important;
+    }
+
+    .service-content p {
+        text-align: start !important;
+    }
+
+    #why-us {
+        padding-inline: 1rem !important;
+    }
+
+    #why-us h3{
+        text-align: center;
+    }
+
+    #why-us > p {
+        text-align: center !important;
+    }
+
+    .special-service {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    #testimonial {
+        padding-inline: 1rem !important;
+    }
+
+    .testimonial-image {
+        width: 8rem !important;
+        margin: auto;
+    }
+
+    .item .row {
+        gap: 15px;
+    }
+
+    .star {
+        text-align: center;
+    }
+
+    .item p {
+        margin-top: 15px;
+        text-align: start !important;
+    }
+
+    #cta-banner {
+        padding-inline: 1rem !important;
+    }
+
+    .cta-banner-layout p {
+        padding-inline: 10px !important;
+    }
+
+    #faq h2 {
+        text-align: center;
+    }
+
+    #footer .row .col p{
+        text-align: start !important;
+    }
 }
